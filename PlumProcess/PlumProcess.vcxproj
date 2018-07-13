@@ -122,10 +122,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="PlumCommon.h" />
     <ClInclude Include="PlumProcess.h" />
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="PlumProcess.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PlumProcess.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
